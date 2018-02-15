@@ -1,4 +1,4 @@
-Mirko Viviano - ###### typefolio fork
+Mirko Viviano
 =========
 
 ## Overview
