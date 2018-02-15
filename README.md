@@ -1,5 +1,5 @@
-typefolio - Mirko Viviano
-[https://mirkoviviano.com](https://mirkoviviano.com)
+Mirko Viviano
+
 =========
 
 ## Overview
