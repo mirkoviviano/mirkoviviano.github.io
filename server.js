@@ -5,6 +5,9 @@ var bodyParser = require('body-parser');
 // In above three line we import the required packages 
 
 var index = require('./routes/index');
+var about = require('./routes/about');
+var works = require('./routes/works');
+var project = require('./routes/project');
 
 // index and api object contain the path of routing files for our application
 
@@ -28,14 +31,17 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 // Define the middleware to parse the data from URL request and requesy body
 
-app.use('/',index);
-app.use('*',index);
+// app.get('/project/:projectID', function (req, res) {
+//   	res.render('project.html');
+// })
+
+app.use('/', index);
+app.use('/about', about);
+app.use('/works', works);
+app.use('/project', project);
 // define the middleware for routing
 
-
-
-
 app.listen(port,function(){
-    console.log('Server Started At '+port);
+    console.log('Server Started At '+ port);
 })
 // Run the Node.js server at 4500 port

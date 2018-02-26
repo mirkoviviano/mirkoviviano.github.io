@@ -1,60 +1,5 @@
-<?php 
-	error_reporting(0);
-	include("header.php");
-
-	$projectName = str_replace("-", " ", $_GET['name']);
-
-
-	$categories = array(0 => 'WEB', 1 => 'DESKTOP');
-
-	$mysqli =  mysqli_connect('localhost', 'root', '', 'portfolio');
-
-	if(!$mysqli){
-		echo "Error: Unable to connect to MySQL." . PHP_EOL;
-	    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-	    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-	    exit;
-	}
-
-	$sql = "SELECT * FROM portfolio WHERE name = '$projectName'";
-	$result = $mysqli->query($sql);
-
-	if ($result->num_rows > 0) {
-	    // output data of each row
-	    while($row = $result->fetch_assoc()) {
-	    	$projectID = $row['id'];
-			$name = $row['name'];
-			$description = $row['description'];
-			$category = $categories[$row['category']];
-			$tech = $row['tech'];
-	    }
-	} 
-
-	$nextProjID = $projectID + 1;
-	$nextProjQuery = "SELECT * FROM portfolio WHERE id = '$nextProjID'";
-	$getNext = $mysqli->query($nextProjQuery);
-
-	if ($getNext->num_rows > 0) {
-	    // output data of each row
-	    while($row = $getNext->fetch_assoc()) {
-	    	$nextProj = mb_strtolower(str_replace(" ", "-", $row['name']));
-	    }
-	} 
-
-	$prevProjID = $projectID - 1;
-	$prevProjQuery = "SELECT * FROM portfolio WHERE id = '$prevProjID'";
-	$getPrev = $mysqli->query($prevProjQuery);
-
-	if ($getPrev->num_rows > 0) {
-	    // output data of each row
-	    while($row = $getPrev->fetch_assoc()) {
-	    	$prevProj = mb_strtolower(str_replace(" ", "-", $row['name']));
-	    }
-	}
-
-	$mysqli->close();
-?>
-
+<% include ../partials/header %>
+<%= project %>
 	<!-- Work - Single Page (Right Sidebar)
 	================================================== -->
 	<section id="works" class="page single">
@@ -144,4 +89,4 @@
 		</div><!-- // .container -->
 	</section><!-- // section -->
 
-<?php include("footer.php");?>
+<% include ../partials/footer %>
