@@ -10,9 +10,17 @@ My name is Mirko, and I am a developer.
 My approach to technologies’ world started the day my father brought home a computer. Since then, I did not even know what a computer was, but my great passion for technologies started in that precise moment. My passion grew up and from that moment I have been studying computer science on my own, until the first day at University.
 
 ## Portfolio
-&nbsp; | &nbsp; | &nbsp; | &nbsp;
---- | --- | ---
-![UniBank](https://mirkoviviano.github.io/images/thumb_item01.png "UniBank") | ![Accademia Del Fortissimo](https://mirkoviviano.github.io/images/thumb_item02.png "Accademia Del Fortissimo") | ![Trivelli Tartufi](https://mirkoviviano.github.io/images/thumb_item03.png "Trivelli Tartufi") | ![Quarto! (Game)](https://mirkoviviano.github.io/images/thumb_item04.png "Quarto! (Game)")
+UniBank | Accademia del Fortissimo | Trivelli Tartufi | Quarto! (Game)
+--- | --- | --- | ---
+![UniBank](https://mirkoviviano.github.io/images/thumb_item01.png "UniBank" ) | [![Accademia Del Fortissimo](https://mirkoviviano.github.io/images/thumb_item02.png "Accademia Del Fortissimo")](http://accademiadelfortissimo.it/) | [![Trivelli Tartufi](https://mirkoviviano.github.io/images/thumb_item03.png "Trivelli Tartufi")](http://trivellitartufi.it/) | ![Quarto! (Game)](https://mirkoviviano.github.io/images/thumb_item04.png "Quarto! (Game)")
+
+Conad Ascoli  | Il Poggio Ristorante | Fondazione Ottavio Sgariglia | Villa Corallo
+--- | --- | --- | ---
+[![Conad Ascoli](https://mirkoviviano.github.io/images/thumb_item05.png )](http://conadascoli.it/) | [![Il Poggio Ristorante](https://mirkoviviano.github.io/images/thumb_item06.png "Il Poggio Ristorante")](http://www.ilpoggioristorante.com/) | [![Fondazione Ottavio Sgariglia](https://mirkoviviano.github.io/images/thumb_item07.png "Fondazione Ottavio Sgariglia")](http://fondazioneottaviosgariglia.it/) | [![Villa Corallo](https://mirkoviviano.github.io/images/thumb_item08.png "Villa Corallo")](http://www.villacorallo.it/)
+
+Orlandi Passion | DataFlowMachine
+--- | --- |
+[![Orlandi Passion](https://mirkoviviano.github.io/images/thumb_item09.png "Orlandi Passion")](http://orlandipassion.com/) | ![DataFlowMachine](https://mirkoviviano.github.io/images/thumb_item04.png "DataFlowMachine")
 
 
 ## License Information
