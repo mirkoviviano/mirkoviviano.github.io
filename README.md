@@ -8,7 +8,7 @@ I am currently working on my portfolio, whose static version, can be found here 
 ## About me
 My name is Mirko, and I am a developer.
 My approach to technologies’ world started the day my father brought home a computer. Since then, I did not even know what a computer was, but my great passion for technologies started in that precise moment. My passion grew up and from that moment I have been studying computer science on my own, until the first day at University.
-
+If you want, you can ["Support Me on Ko-Fi"](https://ko-fi.com/P5P7KJLY)
 ## Portfolio
 Though I am working on my portfolio website, if you wish, you can look at some of my works.
 
